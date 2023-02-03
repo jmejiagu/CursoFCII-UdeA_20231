@@ -1,0 +1,11 @@
+# Compiled source #
+###################
+*~
+*.out
+*.gch
+*.exe
+.vscode
+*.pyc
+*.o
+*__init__.py
+.DS_Store
