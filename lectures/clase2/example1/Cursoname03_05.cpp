@@ -37,7 +37,7 @@ int main()
    string nameOfCourse; 
    LibroCalificar myLibroCalificar; 
    
-   cout << "El nombre inicial del curos es: " << myLibroCalificar.getCourseName()  << endl;
+   cout << "El nombre inicial del curso es: " << myLibroCalificar.getCourseName()  << endl;
 
    cout << "\nPlease enter the course name:" << endl;
    getline( cin, nameOfCourse ); 
