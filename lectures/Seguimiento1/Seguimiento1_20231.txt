@@ -1,3 +1,7 @@
 Tarea1 (Jueves 16 de Febrero).
 Por favor, haga el ejercicio 6 de la sección 3.6 del texto guiá.
 "(General math) The perimeter, approximate surface area, and approximate volume of an in-ground pool are given by......"
+
+Tarea2 (Jueves 23 de Febrero)
+Por favor, haga el ejercicio 7 de la sección 4.5 del texto guiá.
+"(Transportation) Stopping sight distance (SSD) is defined as......"
