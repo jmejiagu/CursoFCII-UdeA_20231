@@ -6,7 +6,6 @@ using namespace std;
 
 class entry{
 public:
-    //entry();
     float SSD( string , float , float , float , float);
     float* get_data();
     void echo_SSD();

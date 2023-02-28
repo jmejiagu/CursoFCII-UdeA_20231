@@ -7,10 +7,7 @@ using namespace std;
 
 #include "entry.h"
 
-//entry::entry(){
-  // Constructor de la clase entry. Se inicializa con los valores de data.
-//}
-
+// Función para el cálculo del SSD
 float entry::SSD(string units, float vel, float tReact, float fCoef, float road){
   // units determina qué unidades se usan. 0 -> US, 1 -> métrico
   float cfactor = 0;
@@ -28,6 +25,7 @@ float entry::SSD(string units, float vel, float tReact, float fCoef, float road)
   return  cfactor * (vel * tReact + cfactor * pow(vel,2) / (2 * g * (fCoef + road)));
 }
 
+// Recibe los datos del usuario y llama a SSD
 float* entry::get_data(){
   
   cout << "Sistema de medida. Ingrese \"US\", \"us\" ó \"0\" para sistema gringo, cualquier otro valor para sistema métrico" << endl;
@@ -58,6 +56,8 @@ float* entry::get_data(){
   return data;
 }
 
+
+//Reporta el valor calculado
 void entry::echo_SSD(){
 if (unit == "0"){
   cout << "La distancia de seguridad es " << ssd << " pies" << endl;
@@ -66,10 +66,11 @@ else
   cout << "La distancia de seguridad es " << ssd << " metros" << endl;
 }
 
+// Para imprimir cada una de las líneas de la tabla
 void entry::echo_table_line(){
     cout << setw(3) << V << " " << setw(6) << left << speed_unit << 
             setw(14) << setprecision(2) << t <<
             setw(9) << setprecision(3) << f <<
             setw(13) << setprecision(3) << r <<
-            setw(6) << setprecision(5) << left << ssd << " " <<d_unit << endl;
+            setw(6) << setprecision(5) << left << ssd << " " << d_unit << endl;
 }
