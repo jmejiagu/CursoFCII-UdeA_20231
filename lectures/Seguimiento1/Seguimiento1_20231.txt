@@ -5,3 +5,31 @@ Por favor, haga el ejercicio 6 de la sección 3.6 del texto guiá.
 Tarea2 (Jueves 23 de Febrero)
 Por favor, haga el ejercicio 7 de la sección 4.5 del texto guiá.
 "(Transportation) Stopping sight distance (SSD) is defined as......"
+
+
+Tarea3 (Jueves 1 de marzo)
+¿estadísticas para pequeños grupos?
+Escriba un programa que calcule estadísticas para pequeños grupos de números aleatorios.
+Para los grupos de números, calcula lo siguiente:
+ 	el valor más pequeño en un grupo
+ 	el mayor valor en un grupo
+ 	la suma de todos los valores en un grupo
+ 	el promedio de todos los valores en un grupo
+
+Hagalo al menos para tres grupos.
+
+
+Tarea4 (Jueves 8 de Marzo)
+Usando las tecnicas de programcion orienta a objetos (POO) que hemos estudiado, cree una clase que soluciones ecuaciones cuadraticas:
+ax^2+bx+c=0
+
+Su clase debe tener almenos las siguientes caracteristicas:
+4 variables privadas: el valor de "a", "b", "c" y el discriminate (definido como: b * b - 4 * a * c).
+Debe tener un constructor.
+Ademas debe tener almenos tres funciones mas:
+a) una que lea los valores de los coeficientes(a, b, c)
+b) una que calcule el discriminate y nos diga de que tipo es la solucion:
+   Las raíces son complejas y diferentes.
+   Las raíces son reales e iguales.
+   Las raíces son reales y diferentes.
+c) una que calcule el valor de las raices.
