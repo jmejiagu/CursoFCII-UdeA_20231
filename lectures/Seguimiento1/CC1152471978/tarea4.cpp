@@ -1,8 +1,5 @@
-#include <iostream>
 
 #include "cuadratica.h"
-
-using namespace std;
 
 int main()
 {
